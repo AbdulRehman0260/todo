@@ -26,6 +26,9 @@ class todo:
             for item in self.list:
                 file.write(f"{item}\n")
 
+    def display_new_item():
+        pass
+
 
 todolist = todo()
 todolist.add_item('do tthis')
